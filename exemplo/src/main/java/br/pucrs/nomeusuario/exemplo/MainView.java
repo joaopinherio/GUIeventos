@@ -21,5 +21,7 @@ public class MainView extends VerticalLayout {
     RouterLink linkParaDemo1 = new RouterLink("Ir para o demo 1 - Alguns componentes", Demo1View.class);
     add(linkParaDemo1);
     add( new RouterLink("Ir para o demo 2 - Mais alguns componentes", Demo2View.class));
+    add( new RouterLink("Ir para StarWars4 - mensagem", StarWarsView4.class));
+    add( new RouterLink("Ir para meu forms", FormularioMen.class));
    }
 }
